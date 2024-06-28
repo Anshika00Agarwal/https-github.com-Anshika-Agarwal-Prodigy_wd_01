@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans|Lato|Montserrat");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;  
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+    height: 60px;
+}
+nav{
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+main-nav{
+    justify-content: space-between;
+    padding-block: 8px ;
+}
+.company-logo img{
+    width: 120px;
+}
+.company-logo img:hover{
+    width: 140px;
+}
+
+hover-link{
+    cursor: pointer;
+    font-size: 20px;
+}
+.hover-link:hover{
+    color:red;
+    font-size: 22px;
+}
+
+.nav-item{
+    padding: 2% 9% ;
+}
+  .column1 {
+    float: left;
+    width: 50%;
+    height: 400px; 
+}
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .row1{
+    margin: 0 80px ;
+}
+  .row2{
+    margin: 0 80px ;
+    width: 88%;
+    height: 50px;
+    background-color: red;
+}
+  .column2 {
+    float: left;
+    height: 50px;
+    background-color: red;
+    padding: 10px;
+    color:#fff;
+}
+  .column4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    content-visibility:auto;
+}
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .row4{
+    margin: 0 80px ;
+}
+
+  
